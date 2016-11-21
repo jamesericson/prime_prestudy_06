@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   $('.welcome').on('mouseenter', function() {
     if(clickNo == 0){
-    $('.portrait').animate({opacity: .50},'fast');
+    $('.portrait').animate({opacity: .35},'fast');
     }
   })
   $('.welcome').on('mouseleave', function() {
@@ -32,3 +32,4 @@ $(document).ready(function() {
 
   console.log("clickNo = "+clickNo);
 });
+//this is a test
