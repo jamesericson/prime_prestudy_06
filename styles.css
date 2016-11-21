@@ -1,0 +1,186 @@
+html, body, h1, h2, h3, p, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+html {
+  background-color: #f5f3ee;
+  min-width: 500px;
+  background: url(background-pattern.png) bottom right repeat;
+}
+
+.portrait {
+  position: absolute;
+  top: 80px;
+  left: 45px;
+}
+body {
+  background-position: center top;
+  background-color: white;
+  border-radius: 15px;
+  margin: 160px;
+  padding: 50px;
+  min-width: 300px;
+  color: #9d9d9d;
+}
+
+.name {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  text-align: right;
+}
+
+header h1 {
+  display: inline;
+  font-size: 60px;
+  color: black;
+}
+
+
+.first-name{
+  font-family: 'lato', arial, helvetica;
+  font-weight: 300;
+}
+
+.last-name{
+  font-family: 'lato', arial, helvetica;
+  font-weight: 700;
+}
+
+.neon {
+  width:120px;
+  height:20px;
+  position: relative;
+  float: right;
+  right: -50px;
+  margin-top: -10px;
+}
+
+header h2 {
+  margin: 55px 0 20px 0;
+  font-family: 'roboto', times;
+  font-weight: 100;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+}
+
+p {
+  text-align: center;
+  font-family: 'roboto', futura, sans-serif;
+  margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+main h1 {
+  font-family: 'lato', helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0 0 10px -15px;
+  color:black;
+}
+
+.experience h2 {
+  border-radius: 11px;
+  background-color: #dddddd;
+  font-family: 'lato', helvetica, sans-serif;
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.experience h3 {
+  font-family: 'lato', helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+main ul {
+  margin-left: 30px;
+  font-family:'roboto', futura, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+
+.education {
+  font-family: 'roboto', futura, sans-serif;
+}
+
+.education h2 {
+  margin-top: 10px;
+}
+
+.education h3 {
+  margin-left: 25px;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+footer {
+  border-top: 40px solid white;
+  margin: 0 -50px -50px -50px;
+  padding: 0 50px 70px 50px;
+  border-radius: 0 0 15px 15px;
+  background-color: #dddddd;
+  color: white;
+}
+
+footer h1 {
+  margin: 10px 0 15px -30px;
+  font-family: 'lato', helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+label, input {
+  display: block;
+  color: black;
+}
+
+label {
+  margin: 0 105px 0px 15px;
+  font-family: 'roboto', times;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+input[type=submit] {
+  float: right;
+  margin: 10px 10px 10px 0;
+  background-color: #666666;
+  color: white;
+  padding: 8px 40px 8px 40px;
+  border-radius: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  border: 2px solid #eeeeee;
+}
