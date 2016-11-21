@@ -19,6 +19,26 @@ html {
   top: 80px;
   left: 45px;
 }
+
+.welcome {
+  top: 170px;
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 280px;
+  display: block;
+  text-align: center;
+
+}
+
+.welcome:first-line {
+  font-size: 90px;
+  font-family: cursive, serif;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+
 body {
   background-position: center top;
   background-color: white;
