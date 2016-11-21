@@ -13,6 +13,8 @@ html {
 }
 
 .portrait {
+  height: 280px;
+  width: 280px;
   position: absolute;
   top: 80px;
   left: 45px;
